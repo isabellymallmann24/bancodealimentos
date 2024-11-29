@@ -1,0 +1,23 @@
+name: alimentos
+description: "A new Flutter project."
+publish_to: 'none'  # Se você não pretende publicar no pub.dev, deixe como 'none'.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.4 <4.0.0"  # Compatível com o SDK do Flutter 3.x.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8  # Ícones do estilo Cupertino (iOS)
+  http: ^1.2.2  # A dependência HTTP para fazer requisições de rede.
+  google_maps_flutter: ^2.3.0  # Dependência para integrar Google Maps.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0  # Para garantir boas práticas de codificação.
+
+flutter:
+  uses-material-design: true  # Habilita o uso de Material Design no app.
