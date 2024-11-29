@@ -52,9 +52,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
         textTheme: TextTheme(
-          bodyText1: TextStyle(color: Colors.black),
-          bodyText2: TextStyle(color: Colors.black87),
-          headline6: TextStyle(color: Colors.green[700]),
+          bodyLarge: TextStyle(color: Colors.black),
+          bodyMedium: TextStyle(color: Colors.black87),
+          titleLarge: TextStyle(color: Colors.green[700]),
         ),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
@@ -141,8 +141,7 @@ class _LoginScreenState extends State<LoginScreen> {
               onPressed: _login,
               child: Text('Entrar', style: TextStyle(fontSize: 18)),
               style: ElevatedButton.styleFrom(
-                padding: EdgeInsets.symmetric(vertical: 15, horizontal: 40),
-                primary: Colors.green[700],
+                padding: EdgeInsets.symmetric(vertical: 15, horizontal: 40), backgroundColor: Colors.green[700],
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30),
                 ),
